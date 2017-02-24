@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		09A93A1D1E60C1060045B8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A1C1E60C1060045B8EB /* AppDelegate.swift */; };
-		09A93A1F1E60C1060045B8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A1E1E60C1060045B8EB /* ViewController.swift */; };
+		09A93A1F1E60C1060045B8EB /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */; };
 		09A93A221E60C1060045B8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A201E60C1060045B8EB /* Main.storyboard */; };
 		09A93A241E60C1060045B8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A231E60C1060045B8EB /* Assets.xcassets */; };
 		09A93A271E60C1060045B8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A251E60C1060045B8EB /* LaunchScreen.storyboard */; };
+		09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09A93A191E60C1060045B8EB /* App_GaritosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_GaritosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A93A1C1E60C1060045B8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09A93A1E1E60C1060045B8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
 		09A93A211E60C1060045B8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09A93A231E60C1060045B8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A93A261E60C1060045B8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A93A281E60C1060045B8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A93A2F1E60CEFC0045B8EB /* App_GaritosMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App_GaritosMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
+		09A93A301E60CEFC0045B8EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,24 @@
 			isa = PBXGroup;
 			children = (
 				09A93A1C1E60C1060045B8EB /* AppDelegate.swift */,
-				09A93A1E1E60C1060045B8EB /* ViewController.swift */,
+				09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */,
+				09A93A2E1E60CED00045B8EB /* OBJ-C */,
 				09A93A201E60C1060045B8EB /* Main.storyboard */,
 				09A93A231E60C1060045B8EB /* Assets.xcassets */,
 				09A93A251E60C1060045B8EB /* LaunchScreen.storyboard */,
 				09A93A281E60C1060045B8EB /* Info.plist */,
 			);
 			path = App_GaritosMadrid;
+			sourceTree = "<group>";
+		};
+		09A93A2E1E60CED00045B8EB /* OBJ-C */ = {
+			isa = PBXGroup;
+			children = (
+				09A93A301E60CEFC0045B8EB /* SWRevealViewController.h */,
+				09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */,
+				09A93A2F1E60CEFC0045B8EB /* App_GaritosMadrid-Bridging-Header.h */,
+			);
+			name = "OBJ-C";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					09A93A181E60C1060045B8EB = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A93A1F1E60C1060045B8EB /* ViewController.swift in Sources */,
+				09A93A1F1E60C1060045B8EB /* CurrentViewController.swift in Sources */,
 				09A93A1D1E60C1060045B8EB /* AppDelegate.swift in Sources */,
+				09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +275,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = App_GaritosMadrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cice.gmbdesign.objc.App-GaritosMadrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App_GaritosMadrid/App_GaritosMadrid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -270,10 +290,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = App_GaritosMadrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cice.gmbdesign.objc.App-GaritosMadrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App_GaritosMadrid/App_GaritosMadrid-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
