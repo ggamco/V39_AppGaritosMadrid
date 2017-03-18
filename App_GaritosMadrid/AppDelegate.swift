@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        personalizaUI()
+        
         return true
     }
 
@@ -39,6 +42,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    //MARK: - FUNCIONES PROPIAS UTILS
+    /// Esta funcion no retorna nada -> tampoco contiene atributos o parametros de entrada.
+    ///
+    ///Su función es la de personalizar la Interfaz del usuario transversalmente
+    /// - parameter: nothing
+    /// - returns: nothing
+    func personalizaUI() {
+        let navbar = UINavigationBar.appearance()
+        navbar.barTintColor = CONSTANTES.COLORES.AZUL_BARRA_NAV
+        navbar.tintColor = CONSTANTES.COLORES.BLANCO_TEXTO_BARRA_NAV
     }
 
 
