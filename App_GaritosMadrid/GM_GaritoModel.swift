@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-class GM_GaritoModel: NSObject{
+class GM_GaritoModel: NSObject, NSCoding{
     
     var direccionGarito: String?
     var latitudGarito: Double?
@@ -21,6 +21,22 @@ class GM_GaritoModel: NSObject{
         self.latitudGarito = pLatitudGarito
         self.longitudGarito = pLongitudGarito
         self.imagenGarito = pImagenGarito
+    }
+    
+    required convenience init?(coder aDecoder: NSCoder){
+        let direccion = aDecoder.decodeObject(forKey: "direccionKey") as! String
+        let latitud = aDecoder.decodeObject(forKey: "latitudKey") as! Double
+        let longitud = aDecoder.decodeObject(forKey: "longitudKey") as! Double
+        let imagen = aDecoder.decodeObject(forKey: "imagenKey") as! String
+        
+        self.init(pDireccionGarito: direccion, pLatitudGarito: latitud, pLongitudGarito: longitud, pImagenGarito: imagen)
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(direccionGarito, forKey: "direccionKey")
+        aCoder.encode(latitudGarito, forKey: "latitudKey")
+        aCoder.encode(longitudGarito, forKey: "longitudKey")
+        aCoder.encode(imagenGarito, forKey: "imagenKey")
     }
     
 }

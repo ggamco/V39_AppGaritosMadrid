@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="330" y="-661"/>
         </scene>
-        <!--View Controller-->
+        <!--Detalle Garito View Controller-->
         <scene sceneID="KiD-tS-XRf">
             <objects>
-                <viewController id="PF6-rs-ENG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetalleGaritoViewController" id="PF6-rs-ENG" customClass="DetalleGaritoViewController" customModule="App_GaritosMadrid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6ng-X6-MTV"/>
                         <viewControllerLayoutGuide type="bottom" id="war-55-jn1"/>
@@ -180,9 +180,24 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ggI-th-iGj">
-                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="RpD-4Y-I1O"/>
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Salvar" id="MT3-Pb-H3f"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancelar" id="RpD-4Y-I1O">
+                            <connections>
+                                <action selector="cerrarVC:" destination="PF6-rs-ENG" id="oyh-tf-Ff9"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Salvar" id="MT3-Pb-H3f">
+                            <connections>
+                                <action selector="salvarDatos:" destination="PF6-rs-ENG" id="LZx-Mi-R8D"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myDireccionLB" destination="g6D-mL-QTp" id="nY8-jV-IxC"/>
+                        <outlet property="myImageViewPicker" destination="lz6-BA-s2M" id="fwl-zK-9sE"/>
+                        <outlet property="myLatitudLB" destination="Jeg-gV-KjP" id="Ezt-QV-Hk9"/>
+                        <outlet property="myLongitudLB" destination="DUp-wT-OhU" id="mLo-ZU-PPy"/>
+                        <outlet property="mySalvarDatosBTN" destination="MT3-Pb-H3f" id="NUy-Pe-EhV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pCK-vF-Yl7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

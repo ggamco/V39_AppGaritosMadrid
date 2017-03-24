@@ -15,6 +15,7 @@
 		09A93A271E60C1060045B8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A251E60C1060045B8EB /* LaunchScreen.storyboard */; };
 		09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */; };
 		09EA9E2F1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA9E2E1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework */; };
+		09EA9E321E85B556005FD27A /* DetalleGaritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EA9E311E85B556005FD27A /* DetalleGaritoViewController.swift */; };
 		CC8DD0C11E7BBEDE0006A97C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD0C01E7BBEDE0006A97C /* Podfile */; };
 		CC8DD0C71E7BC38D0006A97C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DD0C21E7BC38D0006A97C /* Alamofire.framework */; };
 		CC8DD0C81E7BC38D0006A97C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DD0C31E7BC38D0006A97C /* Kingfisher.framework */; };
@@ -49,6 +50,8 @@
 		09A93A301E60CEFC0045B8EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		09EA9E2E1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_App_GaritosMadrid.framework; path = "../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-glqcmhfqgznmtrgxbksfuwhkapqd/Build/Products/Debug-iphonesimulator/Pods_App_GaritosMadrid.framework"; sourceTree = "<group>"; };
+		09EA9E301E85A348005FD27A /* Teoria_NSCoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Teoria_NSCoding.playground; sourceTree = "<group>"; };
+		09EA9E311E85B556005FD27A /* DetalleGaritoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleGaritoViewController.swift; sourceTree = "<group>"; };
 		72B177E14247F122D595DBCB /* Pods_App_GaritosMadrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_GaritosMadrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8DD0C01E7BBEDE0006A97C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC8DD0C21E7BC38D0006A97C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				09A93A1C1E60C1060045B8EB /* AppDelegate.swift */,
+				09EA9E301E85A348005FD27A /* Teoria_NSCoding.playground */,
 				CC8DD0D61E7C12070006A97C /* PARSERS */,
 				CC8DD0D31E7BCF050006A97C /* MODELS */,
 				CC8DD0D01E7BCEB70006A97C /* API */,
@@ -191,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */,
+				09EA9E311E85B556005FD27A /* DetalleGaritoViewController.swift */,
 				CC8DD1241E7D41F60006A97C /* VC_PHOTOS */,
 				CC8DD1251E7D422C0006A97C /* VC_POSTERS */,
 			);
@@ -358,6 +363,7 @@
 				CC8DD11F1E7D41670006A97C /* GM_ListaPosterTableViewController.swift in Sources */,
 				09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */,
 				0968A0111E8587DA004A1D24 /* GM_GaritoModel.swift in Sources */,
+				09EA9E321E85B556005FD27A /* DetalleGaritoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
