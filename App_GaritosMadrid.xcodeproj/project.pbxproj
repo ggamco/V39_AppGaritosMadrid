@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0968A0111E8587DA004A1D24 /* GM_GaritoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968A0101E8587DA004A1D24 /* GM_GaritoModel.swift */; };
 		09A93A1D1E60C1060045B8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A1C1E60C1060045B8EB /* AppDelegate.swift */; };
 		09A93A1F1E60C1060045B8EB /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */; };
 		09A93A221E60C1060045B8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A201E60C1060045B8EB /* Main.storyboard */; };
 		09A93A241E60C1060045B8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A231E60C1060045B8EB /* Assets.xcassets */; };
 		09A93A271E60C1060045B8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A93A251E60C1060045B8EB /* LaunchScreen.storyboard */; };
 		09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */; };
-		8065FD23B1EE5FE279140055 /* Pods_App_GaritosMadrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177E14247F122D595DBCB /* Pods_App_GaritosMadrid.framework */; };
+		09EA9E2F1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EA9E2E1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework */; };
 		CC8DD0C11E7BBEDE0006A97C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD0C01E7BBEDE0006A97C /* Podfile */; };
 		CC8DD0C71E7BC38D0006A97C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DD0C21E7BC38D0006A97C /* Alamofire.framework */; };
 		CC8DD0C81E7BC38D0006A97C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8DD0C31E7BC38D0006A97C /* Kingfisher.framework */; };
@@ -32,9 +33,11 @@
 		CC8DD11F1E7D41670006A97C /* GM_ListaPosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD11E1E7D41670006A97C /* GM_ListaPosterTableViewController.swift */; };
 		CC8DD1221E7D418B0006A97C /* GM_DetallePosterCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD1201E7D418B0006A97C /* GM_DetallePosterCustomCell.swift */; };
 		CC8DD1231E7D418B0006A97C /* GM_DetallePosterCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD1211E7D418B0006A97C /* GM_DetallePosterCustomCell.xib */; };
+		DDA648FD6BD0402AF96984AB /* Pods_App_GaritosMadrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B177E14247F122D595DBCB /* Pods_App_GaritosMadrid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0968A0101E8587DA004A1D24 /* GM_GaritoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GM_GaritoModel.swift; sourceTree = "<group>"; };
 		09A93A191E60C1060045B8EB /* App_GaritosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_GaritosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A93A1C1E60C1060045B8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A93A1E1E60C1060045B8EB /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
@@ -45,8 +48,9 @@
 		09A93A2F1E60CEFC0045B8EB /* App_GaritosMadrid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App_GaritosMadrid-Bridging-Header.h"; sourceTree = "<group>"; };
 		09A93A301E60CEFC0045B8EB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		09A93A311E60CEFC0045B8EB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		09EA9E2E1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_App_GaritosMadrid.framework; path = "../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_GaritosMadrid-glqcmhfqgznmtrgxbksfuwhkapqd/Build/Products/Debug-iphonesimulator/Pods_App_GaritosMadrid.framework"; sourceTree = "<group>"; };
 		72B177E14247F122D595DBCB /* Pods_App_GaritosMadrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_GaritosMadrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC8DD0C01E7BBEDE0006A97C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CC8DD0C01E7BBEDE0006A97C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC8DD0C21E7BC38D0006A97C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		CC8DD0C31E7BC38D0006A97C /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Pods/../build/Debug-iphoneos/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
 		CC8DD0C41E7BC38D0006A97C /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = "Pods/../build/Debug-iphoneos/PKHUD/PKHUD.framework"; sourceTree = "<group>"; };
@@ -73,12 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EA9E2F1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework in Frameworks */,
 				CC8DD0C71E7BC38D0006A97C /* Alamofire.framework in Frameworks */,
 				CC8DD0C81E7BC38D0006A97C /* Kingfisher.framework in Frameworks */,
 				CC8DD0C91E7BC38D0006A97C /* PKHUD.framework in Frameworks */,
 				CC8DD0CA1E7BC38D0006A97C /* PromiseKit.framework in Frameworks */,
 				CC8DD0CB1E7BC38D0006A97C /* SwiftyJSON.framework in Frameworks */,
-				8065FD23B1EE5FE279140055 /* Pods_App_GaritosMadrid.framework in Frameworks */,
+				DDA648FD6BD0402AF96984AB /* Pods_App_GaritosMadrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +139,7 @@
 		3E8795027E1F3155A570EACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09EA9E2E1E8594D9005FD27A /* Pods_App_GaritosMadrid.framework */,
 				CC8DD0C21E7BC38D0006A97C /* Alamofire.framework */,
 				CC8DD0C31E7BC38D0006A97C /* Kingfisher.framework */,
 				CC8DD0C41E7BC38D0006A97C /* PKHUD.framework */,
@@ -167,6 +173,7 @@
 			children = (
 				CC8DD0D11E7BCF000006A97C /* GM_PhotosModel.swift */,
 				CC8DD11A1E7D3CD40006A97C /* GM_ComicsPosterModel.swift */,
+				0968A0101E8587DA004A1D24 /* GM_GaritoModel.swift */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -350,6 +357,7 @@
 				CC8DD0D91E7C12520006A97C /* GM_ListaPhotosTableViewController.swift in Sources */,
 				CC8DD11F1E7D41670006A97C /* GM_ListaPosterTableViewController.swift in Sources */,
 				09A93A321E60CEFC0045B8EB /* SWRevealViewController.m in Sources */,
+				0968A0111E8587DA004A1D24 /* GM_GaritoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

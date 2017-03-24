@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.4.0)
-  - Kingfisher (3.5.1)
+  - Kingfisher (3.5.2)
   - PKHUD (3.2.1)
   - PromiseKit (4.1.7):
     - PromiseKit/Foundation (= 4.1.7)
@@ -36,11 +36,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  Kingfisher: 12eeffeef42ea45b68c5e5acfe8ba9005b713ab4
+  Kingfisher: 9950e382c500b6834ce004c7c4131c444e90c3a1
   PKHUD: 001c11518f125a273ddf026bcc64918423744ea2
   PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
 PODFILE CHECKSUM: e60ab0c78e377af26aa90bb751ee0615d5c5466c
 
-COCOAPODS: 1.2.0.rc.1
+COCOAPODS: 1.2.0
